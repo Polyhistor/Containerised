@@ -1,4 +1,4 @@
-// more-or-less the example code from the hapi-pino repo
+// more-or-less the example code from the hapi-pino repository
 const hapi = require("@hapi/hapi");
 
 async function start() {
