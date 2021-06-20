@@ -1,0 +1,21 @@
+{
+    "name": "Docker classes",
+    "dockerFile": "Dockerfile",
+    "appPort": [
+        3000
+    ],
+    "runArgs": [
+        "-u",
+        "node"
+    ],
+    "settings": {
+        "workbench.colorTheme": "Night Owl",
+        "terminal.integrated.automationShell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "npm install",
+    "extensions": [
+        "sdras.night-owl",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+    ]
+}
