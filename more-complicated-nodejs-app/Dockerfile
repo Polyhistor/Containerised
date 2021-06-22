@@ -1,3 +1,4 @@
+# stretch is expensive but it's fine for building
 FROM node:12-stretch
 
 USER node
@@ -14,4 +15,4 @@ COPY --chown=node:node . .
 
 EXPOSE 3000
 
-CMD ["node", "index.js"]
+CMD ["node", "index.js"] 
