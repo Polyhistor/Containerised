@@ -1,4 +1,4 @@
-// more-or-less the example code from the hapi-pino repo
+// more-or-less the example code from the hapi-pino rep
 const hapi = require("@hapi/hapi");
 const { MongoClient } = require("mongodb");
 const url = process.env.MONGO_CONNECTION_STRING || "mongodb://localhost:27017";
