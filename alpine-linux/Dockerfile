@@ -1,4 +1,4 @@
-# build stage..
+# build stage.
 FROM node:latest AS build
 WORKDIR /build
 COPY package-lock.json package.json ./
